@@ -1,5 +1,3 @@
-import scala.collection.mutable.ListBuffer
-
 object P03_Scala {
   def main(args: Array[String]): Unit = {
     val sentences = List(
@@ -37,14 +35,14 @@ object P03_Scala {
 
     // second I would group them if they are the same string
 
-    val groupList : Map[String, List[String]] = flattenList.groupBy(
+    val groupList: Map[String, List[String]] = flattenList.groupBy(
       sentence => sentence
     )
 
     // last I would pick top 3
     val frequency: List[(String, Int)] = groupList.map(kv =>
       (kv._1, kv._2.length)
-    ).toList.sortWith( _._2 > _._2).take(3)
+    ).toList.sortWith(_._2 > _._2).take(3)
 
 
   }
