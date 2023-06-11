@@ -49,7 +49,6 @@ object Sudoku {
             sudoku(y)(x) = elem
             solve(sudoku, x + 1, y)
             sudoku(y)(x) = 0
-
           }
 
       )
