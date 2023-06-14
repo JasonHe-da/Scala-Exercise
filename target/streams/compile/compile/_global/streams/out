@@ -1,0 +1,28 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ninghaohe/Dropbox/Mac/Documents/GitHub/Scala-Exercise/src/main/scala/PatternMatching/MatchGuard.scala:29:14: non-variable type argument String in type pattern List[String] (the underlying of List[String]) is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case i : List[String] => "List " + i[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ninghaohe/Dropbox/Mac/Documents/GitHub/Scala-Exercise/src/main/scala/S_99_Scala/P08.scala:29:17: comparing values of types Char and List[Char] using `==` will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m      if (first == second)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ninghaohe/Dropbox/Mac/Documents/GitHub/Scala-Exercise/src/main/scala/PatternMatching/MatchCollection.scala:33:5: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: List(_), Nil[0m
+[0m[[0m[33mwarn[0m] [0m[0m    list match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ninghaohe/Dropbox/Mac/Documents/GitHub/Scala-Exercise/src/main/scala/PatternMatching/MatchCollection.scala:42:24: unreachable code[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case (0, _) => "start with 0"[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ninghaohe/Dropbox/Mac/Documents/GitHub/Scala-Exercise/src/main/scala/S_99_Scala/P08.scala:34:10: patterns after a variable pattern cannot match (SLS 8.1.1)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case b => b[0m
+[0m[[0m[33mwarn[0m] [0m[0m         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ninghaohe/Dropbox/Mac/Documents/GitHub/Scala-Exercise/src/main/scala/S_99_Scala/P08.scala:35:19: unreachable code due to variable pattern 'b' on line 34[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case _ => List()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ninghaohe/Dropbox/Mac/Documents/GitHub/Scala-Exercise/src/main/scala/Scala_Concepts/Monads.scala:84:28: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Failure(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      lastOrder.onComplete {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ninghaohe/Dropbox/Mac/Documents/GitHub/Scala-Exercise/src/main/scala/Scala_Concepts/Monads.scala:81:25: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Failure(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m  userFuture.onComplete {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m8 warnings found[0m

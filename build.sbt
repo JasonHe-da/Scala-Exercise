@@ -6,3 +6,4 @@ lazy val root = (project in file("."))
   .settings(
     name := "ScalaExercises"
   )
+libraryDependencies += "org.scalaz" %% "scalaz-core" % "7.3.7"
